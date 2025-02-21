@@ -5,7 +5,7 @@ import App from './pages/App.tsx'
 import New from './pages/New.tsx'
 
 
-export const RouterConfig: React.FC = () => {
+export const RouterConfig = () => {
   return (
     <BrowserRouter>
         <ChakraProvider value={defaultSystem}>
